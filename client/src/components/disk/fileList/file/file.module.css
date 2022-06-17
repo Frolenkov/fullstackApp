@@ -1,0 +1,38 @@
+.file {
+    margin: 10px 0;
+    border-bottom: solid 2px #566885;
+    display: grid;
+    grid-template-columns: 1fr 5fr repeat(6, 1fr);
+    align-items: center;
+}
+.filePlate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 10%;
+    max-width: 10%;
+    padding: 10px;
+}
+.file:hover {
+    transform: scale(1.02);
+}
+.img {
+    justify-self: center;
+}
+.date {
+    grid-column-start: 5;
+    justify-self: center;
+}
+.size {
+    grid-column-start: 6;
+    justify-self: center;
+}
+.download {
+    margin-right: 5px;
+    margin: 5px 5px 5px 0;
+    grid-column-start: 7;
+}
+.delete {
+    grid-column-start: 8;
+    margin-right: 5px;
+}

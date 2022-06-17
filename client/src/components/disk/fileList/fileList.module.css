@@ -1,0 +1,23 @@
+.filelist {
+    margin: 20px 0;
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 5fr repeat(6, 1fr);
+}
+.name {
+    grid-column-start: 2;
+}
+.date {
+    grid-column-start: 5;
+    justify-self: center;
+}
+.size {
+    grid-column-start: 6;
+    justify-self: center;
+}
+
+.filePlate {
+    display: flex;
+    flex-wrap: wrap;
+}

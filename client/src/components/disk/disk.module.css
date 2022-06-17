@@ -1,0 +1,67 @@
+.disk {
+    margin-top: 20px;
+    position: relative;
+    flex-grow: 1;
+    height: 100%;
+    padding: 0 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSide, 
+.rightSide {
+    display: flex;
+}
+
+.plate {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.list {
+    cursor: pointer;
+}
+
+.create {
+    margin-left: 10px;
+}
+
+button {
+    padding: 5px;
+    border: solid 2px #566885;
+    padding: 3px 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.label {
+    cursor: pointer;
+}
+
+.upload {
+    border: solid 2px #566885;
+    padding: 3px 5px;
+    margin-left: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.input {
+    display: none;
+}
+.select {
+    margin-left: 10px;
+}
+.dragArea {
+    width: calc(100vw - 40px);
+    height: calc(100vh - 50px - 43px);
+    margin: 20px;
+    border: dashed #566885 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}

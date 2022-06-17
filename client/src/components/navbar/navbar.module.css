@@ -1,0 +1,44 @@
+.root {      
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #566885;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    padding: 10px 15px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.login {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.registration {
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+}
+
+.logout {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.search {
+    border-bottom: 2px solid #566885;
+    margin-right: 10px;
+}

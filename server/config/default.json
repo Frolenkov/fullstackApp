@@ -2,5 +2,6 @@
     "serverPort": 5000,
     "dbURL": "mongodb+srv://frolenkov:QJYm3BsnxwbI4AYa@cloud.p7iim.mongodb.net/?retryWrites=true&w=majority",
     "secretKey": "krillKaban",
-    "filePath": "C:\\Users\\k.frolenkov\\projects\\fullstack-app\\server\\files"
+    "filePath": "C:\\Users\\k.frolenkov\\projects\\fullstack-app\\server\\files",
+    "staticPath": "C:\\Users\\k.frolenkov\\projects\\fullstack-app\\server\\static"
 }
